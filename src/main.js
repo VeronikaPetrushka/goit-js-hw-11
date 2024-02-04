@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
             gallery.appendChild(card);
           });
 
-          const lightbox = new SimpleLightbox('.gallery a', {
+          const lightbox = new SimpleLightbox('#gallery a', {
             captions: true,
             captionsData: 'alt',
             captionDelay: 250,
