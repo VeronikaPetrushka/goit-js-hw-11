@@ -11,5 +11,5 @@ import{i as d,S as m}from"./assets/vendor-5b791d57.js";(function(){const s=docum
       <p class="img-stat">Downloads:<br>${r.downloads}</p>
       </div>
               </div>
-   `,n.appendChild(c)}),new m(".gallery a",{captions:!0,captionsData:"alt",captionDelay:250,captionPosition:"bottom",history:!1,animationSpeed:250,close:!0}).refresh())}).catch(o=>{console.error("Error:",o)})})});
+   `,n.appendChild(c)}),new m("#gallery a",{captions:!0,captionsData:"alt",captionDelay:250,captionPosition:"bottom",history:!1,animationSpeed:250,close:!0}).refresh())}).catch(o=>{console.error("Error:",o)})})});
 //# sourceMappingURL=commonHelpers.js.map
